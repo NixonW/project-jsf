@@ -26,6 +26,15 @@ public class EmpleadoService {
 		Empleado empleadoIBM = new Empleado();
 		Empleado empleadoMicrosoft = new Empleado();
 		Empleado empleadoApple = new Empleado();
+
+		Empleado empleadoNetflix = new Empleado();
+		Empleado empleadoAmazon = new Empleado();
+		Empleado empleadoHP = new Empleado();
+
+		Empleado empleadoOracle = new Empleado();
+		Empleado empleadoDeloitte = new Empleado();
+		Empleado empleadoDisney = new Empleado();
+
 		
 		empleadoIBM.setNombre("Nixon");
 		empleadoIBM.setPrimerApellido("Castillo");
@@ -45,10 +54,55 @@ public class EmpleadoService {
 		empleadoApple.setPuesto("QA");
 		empleadoApple.setEstatus(false);
 		
+		empleadoNetflix.setNombre("Maryori");
+		empleadoNetflix.setPrimerApellido("Gomezo");
+		empleadoNetflix.setSegundoApellido("Valdez");
+		empleadoNetflix.setPuesto("QA");
+		empleadoNetflix.setEstatus(true);
+
+		empleadoAmazon.setNombre("Idalia");
+		empleadoAmazon.setPrimerApellido("Vasques");
+		empleadoAmazon.setSegundoApellido("Barahona");
+		empleadoAmazon.setPuesto("QA");
+		empleadoAmazon.setEstatus(true);
+
+		empleadoHP.setNombre("Jorge");
+		empleadoHP.setPrimerApellido("Trujillo");
+		empleadoHP.setSegundoApellido("Hernandez");
+		empleadoHP.setPuesto("Java Developer");
+		empleadoHP.setEstatus(true);
+		
+		empleadoOracle.setNombre("Miguel");
+		empleadoOracle.setPrimerApellido("Chaparro");
+		empleadoOracle.setSegundoApellido("Calvache");
+		empleadoOracle.setPuesto("BI");
+		empleadoOracle.setEstatus(true);
+		
+		empleadoDeloitte.setNombre("Ana Luisa");
+		empleadoDeloitte.setPrimerApellido("Pombo");
+		empleadoDeloitte.setSegundoApellido("Abondano");
+		empleadoDeloitte.setPuesto("CEO");
+		empleadoDeloitte.setEstatus(true);
+
+		empleadoDisney.setNombre("Roberto");
+		empleadoDisney.setPrimerApellido("Linares");
+		empleadoDisney.setSegundoApellido("Cangrejo");
+		empleadoDisney.setPuesto("CEO");
+		empleadoDisney.setEstatus(true);
+
+		
 		empleados.add(empleadoIBM);
 		empleados.add(empleadoMicrosoft);
 		empleados.add(empleadoApple);
 
+		empleados.add(empleadoNetflix);
+		empleados.add(empleadoAmazon);
+		empleados.add(empleadoHP);
+
+		empleados.add(empleadoOracle);
+		empleados.add(empleadoDeloitte);
+		empleados.add(empleadoDisney);
+		
 		return empleados;
 		
 	}

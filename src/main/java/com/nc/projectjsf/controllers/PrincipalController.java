@@ -29,6 +29,16 @@ public class PrincipalController {
 	/**
 	 * Servicio con los metodos que realizan la logia de negocio de empleados
 	 */
+	
+	private List<Empleado> empleadosFiltrados;
+	
+	public List<Empleado> getEmpleadosFiltrados() {
+		return empleadosFiltrados;
+	}
+
+	public void setEmpleadosFiltrados(List<Empleado> empleadosFiltrados) {
+		this.empleadosFiltrados = empleadosFiltrados;
+	}
 	private EmpleadoService empleadoService = new EmpleadoService();
 	/**
 	 * Metodo que consulta la lista de empleados
